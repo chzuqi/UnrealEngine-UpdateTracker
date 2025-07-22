@@ -68,7 +68,7 @@ def filter_commit(commit):
     return True
 
 
-def analyze_commits_in_bulk(model, commits, report_language="Japanese"):
+def analyze_commits_in_bulk(model, commits, report_language="Chinese"):
     """
     Analyzes a list of commits in bulk with the Gemini API and returns a formatted Markdown report.
     """
